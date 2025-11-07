@@ -8,6 +8,12 @@ This repository contains the implementation of PACGAN (Progressive Auxiliary Cla
   <img src="Training/PACGAN.JPG" width="1000" title="PACGAN">
 </p>
 
+> **High-resolution conditional MR image synthesis through the PACGAN framework**  
+> Matteo Lai, Chiara Marzi, Luca Citi & Stefano Diciotti  
+> https://www.nature.com/articles/s41598-025-16257-1
+> 
+> Abstract: *Deep learning algorithms trained on medical images often encounter limited data availability, leading to overfitting and imbalanced datasets. Synthetic datasets can address these challenges by providing a priori control over dataset size and balance. In this study, we present PACGAN (Progressive Auxiliary Classifier Generative Adversarial Network), a proof-of-concept framework that effectively combines Progressive Growing GAN and Auxiliary Classifier GAN (ACGAN) to generate high-quality, class-specific synthetic medical images. PACGAN leverages latent space information to perform conditional synthesis of high-resolution brain magnetic resonance (MR) images, specifically targeting Alzheimer’s disease patients and healthy controls. Trained on the Alzheimer’s Disease Neuroimaging Initiative (ADNI) dataset, PACGAN demonstrates its ability to generate realistic synthetic images, which are assessed for quality using quantitative metrics. The ability of the generator to perform proper target synthesis of the two classes was also assessed by evaluating the performance of the pre-trained discriminator when classifying real unseen images, which achieved an area under the receiver operating characteristic curve (AUC) of 0.813, supporting the ability of the model to capture the target characteristics of each class.*
+
 ## Index
 1. [License](#license)
 2. [Preprocessing](#preprocessing)
